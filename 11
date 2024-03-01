@@ -1,0 +1,89 @@
+<body id="izlp">
+  <div id="page1" class="gjs-row">
+    <div id="1" class="gjs-cell">
+      <section id="iiqec" class="bdg-sect">
+      </section>
+      <img id="ixfkl" src="https://via.placeholder.com/350x250/79c267/fff"/>
+      <a id="if8b7" href="#page3">Link</a>
+    </div>
+  </div>
+  <div id="i8af" class="gjs-row">
+    <div id="i2lg" class="gjs-cell">
+    </div>
+  </div>
+  <div id="page" class="gjs-row">
+    <div id="iyeol" class="gjs-cell">
+    </div>
+    <div id="ixzy2" class="gjs-cell">
+      <div id="ih8gt">
+      </div>
+    </div>
+  </div>
+  <div id="i7h5" class="gjs-row">
+  </div>
+  <div id="page3" class="gjs-row">
+    <div id="isuu" class="gjs-cell">
+    </div>
+  </div>
+</body>
+<style>* {
+  box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+  }
+  *{
+    box-sizing:border-box;
+  }
+  body{
+    margin:0;
+  }
+  .gjs-row{
+    display:flex;
+    justify-content:flex-start;
+    align-items:stretch;
+    flex-wrap:nowrap;
+    padding:10px;
+  }
+  .gjs-cell{
+    min-height:75px;
+    flex-grow:1;
+    flex-basis:100%;
+  }
+  #i7h5{
+    height:1216px;
+  }
+  #page3{
+    height:386px;
+  }
+  #\31{
+    flex-basis:49%;
+  }
+  #page1{
+    float:none;
+    height:100px;
+    padding:20px 10px 10px 10px;
+  }
+  #iyeol{
+    flex-basis:30%;
+  }
+  #ixzy2{
+    flex-basis:70%;
+  }
+  #page{
+    height:305px;
+  }
+  #ixfkl{
+    color:black;
+    width:102px;
+    height:74px;
+  }
+  #if8b7{
+    color:#d983a6;
+  }
+  @media (max-width: 768px){
+    .gjs-row{
+      flex-wrap:wrap;
+    }
+  }
+</style>
